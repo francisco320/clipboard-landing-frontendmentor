@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+:root {
+  /* Aquí puedes personalizar tu diseño */
+  --color-brand: hsl(171, 90%, 19%);
+  --Green-five: hsl(171, 66%, 44%);
+  --Blue-one: hsl(233, 100%, 69%);
+
+  --Gray-hard: hsl(210, 10%, 33%);
+  --Gray-mediun: hsl(201, 11%, 66%);
+}
+@font-face {
+  font-family: "Bai Jamjuree";
+  src: url("../public/fonts/BaiJamjuree-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Bai Jamjuree";
+  src: url("../public/fonts/BaiJamjuree-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@theme {
+  --font-bai: "Bai Jamjuree";
+  --shadow-green: 0px 4px 0px #209f8a;
+  --shadow-blue: 0px 4px 0px #5161da;
+}
